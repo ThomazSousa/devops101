@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  agent: MeuAgentedevops
+  name: MeuAgentedevops
 
 variables:
   buildConfiguration: 'Release'
