@@ -42,6 +42,8 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: Publish
   inputs:
+    packageType: 'sdk'
+    version: '2.0.8'
     command: publish
     publishWebProjects: True
     arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
