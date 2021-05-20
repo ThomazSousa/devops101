@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: MeuAgentedevops
+  name: vstsagent.tomcloud.Default.MeuAgentedevops
 
 variables:
   buildConfiguration: 'Release'
